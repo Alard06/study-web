@@ -1,22 +1,55 @@
 
+* {
+  text-align: center ;
+}
+
 body {
    background-image: url("background.avif");
    background-size: cover;
 }
 
-h2 {
+p {
    color:#AA4139;
    text-align: center;
-   border: 5px solid rgba(255, 176, 170, 0.5);
+   border: 5px solid rgba(255, 176, 170, 1);
    padding: 5px;
    cursor: pointer;
 }
 
+img {
+   float: right;
+}
+
+footer {
+   clear: both;
+   text-align: center;
+}
+
 p {
-   color: green;
+   line-height: 40px;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 200%;
+   font-family: "Times New Roman", Georgia;
 }
 
 li {
    list-style: none;
    display: inline-block;
+}
+
+.webtext:first-child {
+   border: 5px dashed green;
+}
+
+.active {
+   color: red;
+}
+
+#div1 {
+background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+background: rgba(255, 0, 0, 0.2);
 }
